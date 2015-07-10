@@ -16,16 +16,13 @@
 #The data can be downloaded from: https://d396qusza40orc.cloudfront.net/exdata
 #%2Fdata%2Fhousehold_power_consumption.zip
 
-#Note that the data must be saved into the working directory
+#NOTE THAT YOU MUST SAVE YOUR DATA INTO THE WORKING DIRECTORY
+#or set the working directory accordingly
 
 #load the required packages
 
 library(dplyr)
 library(lubridate)
-
-##NOTE TO TIM - DELETE BEFORE SUBMITTING
-
-setwd("c:/Users/twilson/Desktop/R/R_Crse/4exp/proj1")
 
 #Note that we are only loading data for the first two days
 #of February 2006 because this is the data that we wish to graph.
